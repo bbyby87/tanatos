@@ -1,0 +1,125 @@
+@media screen and (max-width: 1199px) and (min-width: 1000px) {
+	.services {
+		padding: 75px 100px;
+	}
+}
+@media screen and (max-width: 999px) and (min-width: 900px) {
+	.services {
+		padding: 75px 100px;
+	}
+	.item4 {
+		margin-top: 75px;
+	}
+}
+@media screen and (max-width: 899px) and (min-width: 700px) {
+	.services {
+		padding: 75px 50px;
+	}
+	.item4 {
+		margin-top: 75px;
+	}
+}
+@media screen and (max-width: 699px) {
+	.services {
+		padding: 75px 50px;
+	}
+	.item3, .item4 {
+		margin-top: 75px;
+	}	
+}	
+@media screen and (max-width: 620px) {
+	.input_email  {
+		margin: 0 auto;		
+	}
+	.email_sub {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.subcribe {
+		margin-top: 20px;
+	}
+}
+@media screen and (min-width: 537px) and (max-width: 570px) {
+	form {
+		width: 500px;
+	}
+	#subject {
+		margin-top: 20px;
+	}
+	#massege {
+		width: 500px;
+	}
+}
+@media screen and (max-width: 536px) and (min-width: 450px) {
+	form {
+		width: 400px;
+	}
+	#subject {
+		margin-top: 20px;
+	}
+	#massege {
+		width: 400px;
+	}
+	.form_wrap {
+		width: 400px;
+		flex-direction: row;
+		align-content: center;
+		justify-content: space-between;
+	}
+}
+@media screen and (max-width: 499px) {
+	.item2 {
+		margin-top: 75px;
+	}
+}
+@media screen and (max-width: 449px) and (min-width: 409px) {
+	form {
+		width: 380px;
+	}
+	#subject {
+		margin-top: 20px;
+	}
+	#massege {
+		width: 380px;
+	}
+	.form_wrap {
+		width: 390px;
+		flex-direction: row;
+		align-content: center;
+		justify-content: space-between;
+	}
+}
+@media screen and (max-width: 408px) and (min-width: 320px) {
+	.input_email  {
+		width: 280px;
+		margin: 0 auto;		
+	}
+	form {
+		width: 280px;
+	}
+	#subject {
+		margin-top: 20px;
+	}
+	#massege {
+		width: 280px;
+	}
+	.form_sub {
+	}
+	.form_wrap {
+		width: 280px;
+		flex-direction: column;
+		align-items: center;
+	}
+	.form_icons {
+		margin-top: 20px;
+	}
+}
+
+
+
+
+
+		
+
