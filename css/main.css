@@ -13,19 +13,35 @@ body {
 header {
   background: url(../img/header.png);
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   color: #fff;
 }
  header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 .menu-bar {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
- 	align-items: center;
+ 	-webkit-box-align: center;
+ 	    -ms-flex-align: center;
+ 	        align-items: center;
  	cursor: pointer;	
 }
 .menu-bar h6 {
@@ -56,8 +72,12 @@ span {
 	color: #f7600e;
 }
 .btn_wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;	
-	justify-content: center;
+	-webkit-box-pack: center;	
+	    -ms-flex-pack: center;	
+	        justify-content: center;
 	padding-top: 42px;	
 }
 .btn1, .btn2 {	
@@ -70,7 +90,9 @@ span {
 	border-radius: 	10px;		
 	border: 1px solid gray;
 	text-decoration: none;
-	justify-content: center;	
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;	
 } 
 .btn1 {
 	margin-right: 20px;	
@@ -78,21 +100,31 @@ span {
 .btn1:hover, .btn2:hover {
 	background: #f7600e;
 	color: #fff;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
 	transition: 0.5s;
 }
 .down_arow {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;	
 	width: 30px;	
 	height: 30px;
 	font-size: 20px;
 	border: 1px solid gray;
 	border-radius: 50px;	
-	justify-content: center;
-	align-items: center;	
+	-webkit-box-pack: center;	
+	    -ms-flex-pack: center;	
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;	
 	margin: 0 auto;	
 	margin-top: 120px;
 	margin-bottom: 32px;	
-	transform: rotate(90deg);	
+	-webkit-transform: rotate(90deg);	
+	    -ms-transform: rotate(90deg);	
+	        transform: rotate(90deg);	
 }
 
 .down_arow a {
@@ -103,6 +135,8 @@ span {
 .down_arow:hover {
 	background: #f7600e;
 	color: 	#fff;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
 	transition: 0.5s;	
 }
 .services {
@@ -110,9 +144,13 @@ span {
 	padding: 75px 200px;
 }
 .services_wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 }
 .services_wrap h5 {
 	font-size: 18px;
@@ -127,10 +165,16 @@ span {
 .email {
 	background: url(../img/email.png);
 	min-height: 150px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;	
-	justify-content: center;		
+	-webkit-box-pack: center;	
+	    -ms-flex-pack: center;	
+	        justify-content: center;		
 	-ms-align-items: center;
-	align-items: center;		
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;		
 }
 .input_email {
 	width: 350px;	
@@ -151,12 +195,19 @@ span {
 .subcribe:hover {
 	background: #f7600e;
 	color: #fff;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
 	transition: 0.5s;
 	cursor: pointer;
 }
 .our_works {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 .our_woks_text h3 {
 	font-size: 22px;
@@ -171,23 +222,34 @@ span {
 	line-height: 15px;
 }
 .our_works_cont {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	max-width: 760px;
 	margin: 0 auto;
 	margin-top: 55px;
 }
 .our_works_cont img {
 	margin: 7px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;	
 	width: 230px;
 	height: 230px;
 	border-radius: 5px;
 }
 .button_wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;	
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;	
 }
 .show {	
 	font-size: 16px;
@@ -201,6 +263,8 @@ span {
 .show:hover {
 	background: #f7600e;
 	color: #fff;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
 	transition: 0.5s;
 	cursor: pointer;
 }
@@ -209,15 +273,29 @@ span {
 	background-size: cover;
 	max-height: 318px;
 	padding: 65px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .avatar_wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: space-between;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	text-align: center;
 	height: 185px;
 }
@@ -230,10 +308,16 @@ span {
 	color: #a4a6a9;
 }
 .controls {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	align-content: center;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-ms-flex-line-pack: center;
+	    align-content: center;
 	font-size: 40px;
 	font-weight: 900;
 	color: #a4a6a9;
@@ -250,8 +334,13 @@ span {
 	margin-right: 20%;
 }
 .our_team {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-  	flex-direction: column;
+  	-webkit-box-orient: vertical;
+  	-webkit-box-direction: normal;
+  	    -ms-flex-direction: column;
+  	        flex-direction: column;
  	text-align: center;
 } 
 .our_team_wrap h4 {
@@ -268,9 +357,14 @@ span {
 	color: #a4a6a9;
 }
 .our_team_wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
 	margin-top: 65px;
  	margin-bottom: 65px;
 }
@@ -288,15 +382,26 @@ span {
 }
 .fa-stack:hover {
   color: #f7600e;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 .footer_form {
 	background: url(../img/cf.png);
 	background-size: cover;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-  	justify-content: space-between;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+  	-webkit-box-pack: justify;
+  	    -ms-flex-pack: justify;
+  	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 .footer_form p {
 	margin-bottom: 65px;
@@ -306,9 +411,16 @@ span {
 	color: #fff;
 }
 form {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-direction: column;
-	align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	padding-bottom: 90px;
 }
 #massege, #mail, #subject {
@@ -326,15 +438,25 @@ form {
 	margin-top: 20px;
 }
 .form_icons {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 .form_wrap {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-top: 20px;
 	width: 520px;
-	flex-direction: row;
-	align-content: center;
-	justify-content: space-between;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-ms-flex-line-pack: center;
+	    align-content: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 }
 .form_icons .fa-stack {
 	font-size: 16px;
@@ -349,6 +471,8 @@ form {
 	cursor: pointer;
 	background: #f7600e;
 	color: #fff;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
 	transition: 0.5s;
 }
 footer {
@@ -361,6 +485,9 @@ footer a {
 	color: #fff;
 }
 .adres {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 }
